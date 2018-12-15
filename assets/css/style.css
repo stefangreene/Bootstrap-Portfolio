@@ -1,0 +1,33 @@
+nav#navigation{
+    border-bottom-style: dashed;
+    border-bottom-color: blue;
+    border-bottom-width: 2px;
+}
+nav#footer{
+    border-top-style: dashed;
+    border-top-color: blue;
+    border-top-width: 2px;
+}
+#title{
+    color: white;
+}
+h2.text-primary{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    font-size: 70px;
+}
+div#test{
+    border-style: solid;
+    border-color:black;
+    border-width: 2px;
+    border-radius: 10px;
+}
+div#border{
+    background-color: blanchedalmond;
+}
+div#card{
+    float: right;
+    left: 80%;
+    margin-top: 2px;
+    align-self: flex-start;
+}

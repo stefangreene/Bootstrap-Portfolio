@@ -3,43 +3,55 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <title>Bootstrap-Portfolio</title>
-    <link rel="stylesheet" type="text.css" href="style.css">
-  <!-- Bring in our bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<meta charset="UTF-8">
+<title>Bootstrap-Portfolio</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/font-awesome.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand">Stefan Greene</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <a id="title" class="navbar-brand btn btn-secondary m-2">Stefan Greene</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+                      
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-    <li class="nav-item">
-        <a class="btn btn-success m-2" href="index.html" role="button">Home</a>
-    </li>
-    <li class="nav-item">
-        <a class="btn btn-success m-2" href="portfolio.html" role="button">Portfolio</a>
-    </li>
-    <li class="nav-item">
-        <a class="btn btn-success m-2" href="contact.html" role="button">Contact</a>
-    </li>
-</ul>
+        <li class="nav-item">
+            <a class="btn btn-outline-primary m-2" href="index.html" role="button">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-outline-primary m-2" href="portfolio.html" role="button">Portfolio</a>
+        </li>
+        <li class="nav-item">
+        <a class="btn btn-outline-primary m-2" href="contact.html" role="button">Contact</a>
+            </li>
+    </ul>
 <form class="form-inline my-2 my-lg-0">
     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
  </div>
 </nav>
-    <div class="container mt-5">
+    <div id="test" class="container mt-5">
         <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-2 ml-2 mt-5"><h2 class="text-primary ml-2">Contact</h2></div>
-            <div class="col-lg-5"><p class="mt-5"></p>
+            <!--<div class="col-lg-1"></div>-->
+            <div class="col-lg-6 ml-2"><h2 class="text-primary">Contact</h2></div>
+            <div class="col-lg-2 ml-2"></div>
+            <div class="col-lg-3 mt-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h6 class="card-title">Icons</h6>
+                    <span><i class="fa-lg"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-lg-1 ml-2"></div>
+    <div class="col-lg-7">
         <form>
             <div class="form-group">
             <div class="form-group">
@@ -50,18 +62,16 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
             </div>
             <label for="exampleInputMessage">Message</label>
-            <textarea class="form-control" id="exampleInputMessage" type="text" rows="3"></textarea>
-            <button type="submit" class="btn btn-primary mt-2">Submit</button>
+            <textarea class="form-control" id="exampleInputMessage" type="text" rows="3" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-primary mt-2 mb-3">Submit</button>
         </form>
+        <div class="col-lg-4 ml-2"></div>
     </div>
-        <div class="col-lg-3"><div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-    </div>
-</div>
 </div>
 
+<nav id="footer" class="navbar fixed-bottom navbar-light bg-light">
+        <a class="navbar-brand" href="#">Flandango!</a>
+      </nav>
+
 </body>
+</html>
