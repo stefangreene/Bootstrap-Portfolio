@@ -3,13 +3,14 @@ nav#navigation{
     border-bottom-color: blue;
     border-bottom-width: 2px;
 }
+
 nav#footer{
     border-top-style: dashed;
     border-top-color: blue;
     border-top-width: 2px;
 }
 #title{
-    color: white;
+    color: rgb(186, 186, 186);
 }
 h2.text-primary{
     font-family: 'Courier New', Courier, monospace;
